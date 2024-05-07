@@ -1,0 +1,20 @@
+# Function definition
+def greet(name):
+    """
+    This function greets the user.
+    """
+    print("Hello, " + name + "!")
+
+# Function call
+greet("Alice")
+
+# Scope example
+x = 10
+
+def my_func():
+    global x
+    x = 20
+    print("Inside function:", x)
+
+my_func()
+print("Outside function:", x)
