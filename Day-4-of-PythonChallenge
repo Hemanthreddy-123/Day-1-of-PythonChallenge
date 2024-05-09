@@ -1,0 +1,22 @@
+# Creating a list of strings
+colors = ["red", "green", "blue", "yellow"]
+print("Original colors list:", colors)
+
+# Reversing the order of elements in the list
+colors.reverse()
+print("Reversed colors list:", colors)
+
+# Sorting the list alphabetically
+colors.sort()
+print("Sorted colors list:", colors)
+
+# Adding elements to the list using concatenation
+colors = colors + ["orange", "purple"]
+print("Updated colors list:", colors)
+
+# Removing the first occurrence of an element from the list
+colors.remove("green")
+print("List after removing 'green':", colors)
+
+# Counting the occurrences of an element in the list
+print("Number of occurrences of 'blue':", colors.count("blue"))
