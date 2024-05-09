@@ -1,0 +1,26 @@
+# Concatenation
+str1 = "Hello"
+str2 = "World"
+result = str1 + " " + str2
+print("Concatenated string:", result)
+
+# String formatting
+name = "Alice"
+age = 30
+message = "My name is {} and I am {} years old.".format(name, age)
+print("Formatted message:", message)
+
+# String methods
+sentence = "Mukkamalla Reddy Hemanth"
+print("Original sentence:", sentence)
+print("Uppercase:", sentence.upper())
+print("Lowercase:", sentence.lower())
+print("Capitalized:", sentence.capitalize())
+print("Titlecased:", sentence.title())
+print("Reversed:", sentence[::-1])
+
+# Splitting and joining
+words = sentence.split()  # Splitting into words
+print("Split sentence:", words)
+reversed_sentence = " ".join(words[::-1])  # Joining words in reverse order
+print("Reversed sentence:", reversed_sentence)
