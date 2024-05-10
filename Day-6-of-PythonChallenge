@@ -1,0 +1,31 @@
+# Dictionary example
+employee_salary = {"Asish Reddy": 50000, "Varshi Reddy": 60000, "Bhargavi Reddy": 55000}
+
+# Accessing value by key
+print("Hemanth Reddy:", employee_salary["Varshi Reddy"])
+
+# Adding a new key-value pair
+employee_salary["Chandu"] = 62000
+print("Deepu Reddy:", employee_salary["Chandu"])
+
+# Iterating over keys and values
+for name, salary in employee_salary.items():
+    print(name, "earns", salary)
+
+# Set example
+unique_numbers = {1, 2, 3, 4, 5}
+
+# Adding elements to a set
+unique_numbers.add(6)
+unique_numbers.add(4)  # Adding an existing element won't change the set
+
+# Removing elements from a set
+unique_numbers.remove(2)
+
+# Checking membership
+print("Is 3 in the set?", 3 in unique_numbers)
+
+# Iterating over a set
+print("Unique numbers:")
+for number in unique_numbers:
+    print(number)
